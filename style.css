@@ -71,11 +71,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-body {
-  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(pink));
-  background: linear-gradient(blue, pink);
-}
-
 #clock {
   font-family: "Black Ops One", cursive;
   color: #66ff99;
@@ -86,7 +81,7 @@ body {
 }
 
 #day {
-  font-family: "Black Ops One", cursive;
+  font-family: "Black Ops One";
   color: #66ff99;
   font-size: 100px;
   text-align: center;
@@ -95,7 +90,7 @@ body {
 }
 
 #date {
-  font-family: "Black Ops One", cursive;
+  font-family: "Black Ops One";
   color: #66ff99;
   font-size: 100px;
   text-align: center;

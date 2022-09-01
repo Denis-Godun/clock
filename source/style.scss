@@ -1,9 +1,7 @@
 @import 'zerostyle.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-body{
-    background: linear-gradient(blue, pink);
-}
+
 #clock{
   font-family: 'Black Ops One', cursive;
     color: #66ff99;
@@ -13,7 +11,7 @@ body{
   padding-bottom: 40px;
 }
 #day{
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Black Ops One';
   color: #66ff99;
 font-size: 100px;
 text-align: center;
@@ -21,7 +19,7 @@ padding-top: 40px;
 padding-bottom: 40px;
 } 
 #date{
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Black Ops One';
   color: #66ff99;
 font-size: 100px;
 text-align: center;
