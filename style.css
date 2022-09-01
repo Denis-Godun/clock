@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,4 +69,36 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(pink));
+  background: linear-gradient(blue, pink);
+}
+
+#clock {
+  font-family: "Black Ops One", cursive;
+  color: #66ff99;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#day {
+  font-family: "Black Ops One", cursive;
+  color: #66ff99;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#date {
+  font-family: "Black Ops One", cursive;
+  color: #66ff99;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
