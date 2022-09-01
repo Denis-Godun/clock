@@ -1,28 +1,25 @@
-@import 'zerostyle.scss';
+@import "zerostyle.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
-#clock{
-  font-family: 'Black Ops One', cursive;
-    color: #66ff99;
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+.body {
+  transition: background-color 3s ease;
+}
+.container {
+  font-family: "Black Ops One", cursive;
+  color: #66ff99;
   font-size: 100px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-#day{
-  font-family: 'Black Ops One';
-  color: #66ff99;
-font-size: 100px;
-text-align: center;
-padding-top: 40px;
-padding-bottom: 40px;
-} 
-#date{
-  font-family: 'Black Ops One';
-  color: #66ff99;
-font-size: 100px;
-text-align: center;
-padding-top: 40px;
-padding-bottom: 40px;
+#clock {
+  margin-top: 50px;
+}
+#day {
+  font-family: "Black Ops One";
+  margin-top: 150px;
+}
+#date {
+  font-family: "Black Ops One";
+  margin-top: 150px;
 }

@@ -71,7 +71,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-#clock {
+.body {
+  -webkit-transition: background-color 3s ease;
+  transition: background-color 3s ease;
+}
+
+.container {
   font-family: "Black Ops One", cursive;
   color: #66ff99;
   font-size: 100px;
@@ -80,20 +85,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 40px;
 }
 
+#clock {
+  margin-top: 50px;
+}
+
 #day {
   font-family: "Black Ops One";
-  color: #66ff99;
-  font-size: 100px;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 150px;
 }
 
 #date {
   font-family: "Black Ops One";
-  color: #66ff99;
-  font-size: 100px;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 150px;
 }
